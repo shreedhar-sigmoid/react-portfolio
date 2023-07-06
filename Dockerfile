@@ -7,15 +7,6 @@ RUN apt update
 # Install npm
 RUN apt install -y npm
 
-# Create a directory for the React app
-RUN mkdir /react
-
-# Set the working directory to the React app directory
-WORKDIR /react
-
-# Add the React code to the image
-ADD react-portfolio .
-
 # Install npm packages
 RUN npm install
 
