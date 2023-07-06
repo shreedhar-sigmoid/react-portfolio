@@ -1,0 +1,11 @@
+# Ignore specific files
+file.txt
+secret.key
+
+# Ignore directories
+logs/
+tmp/
+
+# Ignore files with specific extensions
+*.log
+*.tmp
